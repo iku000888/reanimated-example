@@ -3,7 +3,7 @@
  :resource-paths #{"resources"}
  :dependencies '[[org.clojure/clojurescript "1.9.946"]
                  [cljsjs/react-with-addons "15.6.1-0"]
-                 [reagent "0.7.0"]
+                 [reagent "0.7.0" :exclusions [cljsjs/react]]
                  [reanimated "0.5.3"]
                  [figwheel-sidecar "0.5.14"]
                  [hiccup "2.0.0-alpha1"]
