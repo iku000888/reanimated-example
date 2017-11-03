@@ -16,7 +16,7 @@
   (page/html5
    [:body
     [:div {:id "app"}]
-    (page/include-js "/public/js/reanimated.js")]))
+    (page/include-js "https://iku000888.github.io/reanimated-example/public/js/reanimated.js")]))
 
 (defn handler [req]
   ((r/wrap-resource
