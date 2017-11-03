@@ -1,7 +1,6 @@
 (ns reanimated.demo
-  (:require
-   [reagent.core :as r]
-   [reanimated.core :as rc]))
+  (:require [reagent.core :as r]
+            [reanimated.core :as rc]))
 
 (defn item [s stuff]
   (let [size (r/atom 40)
